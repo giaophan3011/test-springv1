@@ -9,5 +9,13 @@
 <body>
 You signed in successfully.
 Welcome ${name}!!!
+<p>Your to-do list:</p>
+<form action="/list" method="post">
+	
+	<p>1. <input type="text" name="work1"/></p>
+	<p>2. <input type="text" name="work2"/></p>
+	<p>3. <input type="text" name="work3"/></p>
+	<p><input type="submit" name="save"/></p>
+</form>
 </body>
 </html>

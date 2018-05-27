@@ -11,7 +11,7 @@
 <body>
 	<%java.util.Date date = new java.util.Date(); %>
 	Welcome to My First WebApp ${n}
-	Current date is <%=date %>
+	<p>Current date is <%=date %></p>
 	<form action="/welcome" method="post">
 	${error}
 	Enter your name <input type="text" name="name"/> and Password <input type="password" name="password"/><input type="submit"value="login"/> 
